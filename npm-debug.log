@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express-generator' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'express-generator', null ]
+6 verbose cache add name=undefined spec="express-generator" args=["express-generator",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express-generator',
+7 verbose parsed url   path: 'express-generator',
+7 verbose parsed url   href: 'express-generator' }
+8 silly lockFile 198a68d8-express-generator express-generator
+9 verbose lock express-generator /home/pravinkumarvaja/.npm/198a68d8-express-generator.lock
+10 silly lockFile 198a68d8-express-generator express-generator
+11 silly lockFile 198a68d8-express-generator express-generator
+12 verbose addNamed [ 'express-generator', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile bd41e3d3-express-generator express-generator@
+15 verbose lock express-generator@ /home/pravinkumarvaja/.npm/bd41e3d3-express-generator.lock
+16 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+17 verbose url raw express-generator
+18 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+19 verbose url resolved https://registry.npmjs.org/express-generator
+20 info trying registry request attempt 1 at 20:32:52
+21 http GET https://registry.npmjs.org/express-generator
+22 http 200 https://registry.npmjs.org/express-generator
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Fri, 16 May 2014 15:02:53 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+23 silly registry.get     etag: '"BKIQKP0UJ0ZJLCESO3W1YN4BM"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     'content-length': '8775',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     age: '138',
+23 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv95-SJC3',
+23 silly registry.get     'x-cache': 'HIT, MISS',
+23 silly registry.get     'x-cache-hits': '1, 0',
+23 silly registry.get     'x-timer': 'S1400252436.212606430,VS0,VS35,VE41,VE137657',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+25 silly addNameRange versions [ 'express-generator', [ '1.0.0', '3.0.0', '4.0.0', '4.2.0' ] ]
+26 verbose addNamed [ 'express-generator', '4.2.0' ]
+27 verbose addNamed [ '4.2.0', '4.2.0' ]
+28 silly lockFile a399865e-express-generator-4-2-0 express-generator@4.2.0
+29 verbose lock express-generator@4.2.0 /home/pravinkumarvaja/.npm/a399865e-express-generator-4-2-0.lock
+30 silly lockFile ce1347ea-ator-express-generator-4-2-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.2.0.tgz
+31 verbose lock https://registry.npmjs.org/express-generator/-/express-generator-4.2.0.tgz /home/pravinkumarvaja/.npm/ce1347ea-ator-express-generator-4-2-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.2.0.tgz',
+32 verbose addRemoteTarball   '98ede7b9d1cbab2ece9cd236511ab42f7bd9298a' ]
+33 silly lockFile ce1347ea-ator-express-generator-4-2-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.2.0.tgz
+34 silly lockFile ce1347ea-ator-express-generator-4-2-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.2.0.tgz
+35 silly lockFile a399865e-express-generator-4-2-0 express-generator@4.2.0
+36 silly lockFile a399865e-express-generator-4-2-0 express-generator@4.2.0
+37 silly lockFile bd41e3d3-express-generator express-generator@
+38 silly lockFile bd41e3d3-express-generator express-generator@
+39 error Error: EACCES, mkdir '/home/pravinkumarvaja/tmp/npm-7706-wAWhU5D_'
+39 error  { [Error: EACCES, mkdir '/home/pravinkumarvaja/tmp/npm-7706-wAWhU5D_']
+39 error   errno: 3,
+39 error   code: 'EACCES',
+39 error   path: '/home/pravinkumarvaja/tmp/npm-7706-wAWhU5D_' }
+40 error Please try running this command again as root/Administrator.
+41 error System Linux 3.8.0-19-generic
+42 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "express-generator"
+43 error cwd /home/pravinkumarvaja/node_workspace
+44 error node -v v0.10.25
+45 error npm -v 1.3.24
+46 error path /home/pravinkumarvaja/tmp/npm-7706-wAWhU5D_
+47 error code EACCES
+48 error errno 3
+49 error stack Error: EACCES, mkdir '/home/pravinkumarvaja/tmp/npm-7706-wAWhU5D_'
+50 verbose exit [ 3, true ]
